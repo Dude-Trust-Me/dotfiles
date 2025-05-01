@@ -1,0 +1,45 @@
+* {
+  font-family: HackNerdFont-Regular;
+  font-size: 10pt;
+  border: none;
+  border-radius: 10px;
+  box-shadow: none;
+  text-shadow: none;
+  transition-duration: 0s;
+}
+
+window#waybar {
+  color: #F8F4E1;
+  background:transparent;
+  opacity: 0.85;
+}
+#power,
+#window,
+#memory,
+#disk,
+#pulseaudio,
+#custom-weather,
+#cpu {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+#custom-weather {
+  padding-left: 2rem;
+  font-weight: bold;
+}
+
+#workspaces {
+  background: #F8F4E1;
+  color: #000;
+  font-weight: bold;
+  border-radius: 0 1rem 1rem 0;
+}
+#workspaces button {
+  background: transparent;
+}
+
+#workspaces button.focused {
+  background: #F8F4E1;
+  border-radius: 1rem;
+}
